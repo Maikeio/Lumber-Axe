@@ -1,0 +1,7 @@
+main: net.ddns.maikeio.lumberaxe.Main
+name: Lumber-Axe
+version: 1.0
+description: Plugin for a Lumber Axe
+api-version: 1.16
+author: Maikeio
+website: www.maikeio.ddns.net
