@@ -1,6 +1,5 @@
 package net.ddns.maikeio.lumberaxe;
 
-import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -29,11 +28,8 @@ public class SmithingTableRecupeListener implements Listener {
 			return;
 
 		if (event.getInventory().getItem(0).getType() != this.result.getType()
-				|| !event.getInventory().getItem(1).isSimilar(this.addition) || event.getInventory().getItem(0)
-						.getItemMeta().getCustomModelData() == result.getItemMeta().getCustomModelData())
-			return;
-
-		Bukkit.getPlayer("Maikeio").sendMessage("s");
+				|| !event.getInventory().getItem(1).isSimilar(this.addition) || event.getInventory().getItem(0).getItemMeta().hasCustomModelData())
+			return;	
 
 		ItemStack result = event.getInventory().getItem(0).clone();
 		ItemMeta meta = result.getItemMeta();
