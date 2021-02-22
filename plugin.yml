@@ -5,3 +5,4 @@ description: Plugin for a Lumber Axe
 api-version: 1.16
 author: Maikeio
 website: www.maikeio.ddns.net
+depend: [Blatt]

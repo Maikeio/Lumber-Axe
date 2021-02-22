@@ -6,10 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/timo/BuildTools/spigot-1.16.5.jar">
+	<classpathentry kind="lib" path="/home/timo/Test Server/spigot-1.16.5.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/timo/Test Server/plugins/Blatt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
